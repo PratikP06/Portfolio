@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import plannerImage from '../assets/planner.png';
-import kharchapaniImage from '../assets/kharchapani.png';
+import kharchapaniImage from '../assets/Kharchapani.png';
 import iotImage from '../assets/IOT.png'; 
 const Projects = () => {
   const projectsData = [
