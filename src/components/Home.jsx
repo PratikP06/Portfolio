@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../assets/Pratik_Pawar_CV.pdf';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
             I build modern web applications and developer tools, turning ideas into products through clean code and thoughtful design.
           </p>
           <div className="hero-actions">
-            <a href="src\assets\Pratik_Pawar_CV.pdf" className="btn-primary btn-primary-large font-label-md text-on-primary">Download Resume</a>
+            <a href= {resume} className="btn-primary btn-primary-large font-label-md text-on-primary">Download Resume</a>
             <a href="#contact" className="btn-outline font-label-md">Contact Me</a>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import  { useEffect, useState, useRef } from 'react';
+import resume from '../assets/Pratik_Pawar_CV.pdf';
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [indicatorStyle, setIndicatorStyle] = useState({ left: 0, width: 0, opacity: 0 });
@@ -64,7 +65,7 @@ const Navbar = () => {
           <a href="#skills" onClick={(e) => handleLinkClick(e, 'skills')} className={`font-label-md nav-link ${activeSection === 'skills' ? 'active' : ''}`}>Skills</a>
           <a href="#projects" onClick={(e) => handleLinkClick(e, 'projects')} className={`font-label-md nav-link ${activeSection === 'projects' ? 'active' : ''}`}>Projects</a>
           <a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')} className={`font-label-md nav-link ${activeSection === 'contact' ? 'active' : ''}`}>Contact</a>
-          <a href="src\assets\Pratik_Pawar_CV.pdf" download className="btn-primary font-label-md">Resume</a>
+          <a href={resume} download className="btn-primary font-label-md">Resume</a>
 
           <div className="nav-indicator" style={{
             position: 'absolute',
