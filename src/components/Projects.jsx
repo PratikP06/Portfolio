@@ -1,8 +1,9 @@
-import React from 'react';
+
 import ProjectCard from './ProjectCard';
 import plannerImage from '../assets/planner.png';
 import kharchapaniImage from '../assets/Kharchapani.png';
 import iotImage from '../assets/IOT.png'; 
+import hydrateImage from '../assets/hydrate.png';
 const Projects = () => {
   const projectsData = [
     {
@@ -20,6 +21,14 @@ const Projects = () => {
       techs: ['Node.js', 'MongoDB', 'React.js', 'Express.js'],
       liveLink: 'https://kharchapani-bay.vercel.app/',
       githubLink: 'https://github.com/PratikP06/kharchapani'
+    },
+    {
+      title : "Hydrate",
+      description : "A hydration tracking Extension for IDE that helps users stay hydrated by sending reminders and tracking water intake.",
+      image : hydrateImage,
+      techs : [ "Javascript", "VSCE" , "Node.js" ],
+      liveLink : "https://marketplace.visualstudio.com/items?itemName=PratikP06.hydrate&ssr=false#review-details",
+      githubLink : "https://github.com/PratikP06/hydrate"
     },
     {
       title: 'AQI Dashboard',
